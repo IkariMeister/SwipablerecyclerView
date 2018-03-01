@@ -1,0 +1,86 @@
+[
+    {
+        "merged": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_small_text.xml",
+        "source": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\src\\main\\res\\layout\\list_item_small_text.xml"
+    },
+    {
+        "merged": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_value_block_tool.xml",
+        "source": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\src\\main\\res\\layout\\activity_value_block_tool.xml"
+    },
+    {
+        "merged": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_file_chooser.xml",
+        "source": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\src\\main\\res\\layout\\activity_file_chooser.xml"
+    },
+    {
+        "merged": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_donate.xml",
+        "source": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\src\\main\\res\\layout\\dialog_donate.xml"
+    },
+    {
+        "merged": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_tag_info_tool.xml",
+        "source": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\src\\main\\res\\layout\\activity_tag_info_tool.xml"
+    },
+    {
+        "merged": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_hex_to_ascii.xml",
+        "source": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\src\\main\\res\\layout\\activity_hex_to_ascii.xml"
+    },
+    {
+        "merged": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_help.xml",
+        "source": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\src\\main\\res\\layout\\activity_help.xml"
+    },
+    {
+        "merged": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_diff_block.xml",
+        "source": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\src\\main\\res\\layout\\list_item_diff_block.xml"
+    },
+    {
+        "merged": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_create_key_map.xml",
+        "source": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\src\\main\\res\\layout\\activity_create_key_map.xml"
+    },
+    {
+        "merged": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_key_editor.xml",
+        "source": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\src\\main\\res\\layout\\activity_key_editor.xml"
+    },
+    {
+        "merged": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main_menu.xml",
+        "source": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\src\\main\\res\\layout\\activity_main_menu.xml"
+    },
+    {
+        "merged": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_write_sectors.xml",
+        "source": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\src\\main\\res\\layout\\dialog_write_sectors.xml"
+    },
+    {
+        "merged": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_read_tag.xml",
+        "source": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\src\\main\\res\\layout\\activity_read_tag.xml"
+    },
+    {
+        "merged": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_access_condition_decoder.xml",
+        "source": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\src\\main\\res\\layout\\activity_access_condition_decoder.xml"
+    },
+    {
+        "merged": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_bcc_tool.xml",
+        "source": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\src\\main\\res\\layout\\activity_bcc_tool.xml"
+    },
+    {
+        "merged": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_write_tag.xml",
+        "source": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\src\\main\\res\\layout\\activity_write_tag.xml"
+    },
+    {
+        "merged": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_access_condition_tool.xml",
+        "source": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\src\\main\\res\\layout\\activity_access_condition_tool.xml"
+    },
+    {
+        "merged": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_dump_editor.xml",
+        "source": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\src\\main\\res\\layout\\activity_dump_editor.xml"
+    },
+    {
+        "merged": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_diff_tool.xml",
+        "source": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\src\\main\\res\\layout\\activity_diff_tool.xml"
+    },
+    {
+        "merged": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_value_blocks_to_int.xml",
+        "source": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\src\\main\\res\\layout\\activity_value_blocks_to_int.xml"
+    },
+    {
+        "merged": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_preferences.xml",
+        "source": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\src\\main\\res\\layout\\activity_preferences.xml"
+    }
+]

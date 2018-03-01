@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\build\\intermediates\\res\\merged\\debug\\menu\\general_options.xml",
+        "source": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\src\\main\\res\\menu\\general_options.xml"
+    },
+    {
+        "merged": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\build\\intermediates\\res\\merged\\debug\\menu\\file_chooser_functions.xml",
+        "source": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\src\\main\\res\\menu\\file_chooser_functions.xml"
+    },
+    {
+        "merged": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\build\\intermediates\\res\\merged\\debug\\menu\\tools.xml",
+        "source": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\src\\main\\res\\menu\\tools.xml"
+    },
+    {
+        "merged": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\build\\intermediates\\res\\merged\\debug\\menu\\key_editor_functions.xml",
+        "source": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\src\\main\\res\\menu\\key_editor_functions.xml"
+    },
+    {
+        "merged": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\build\\intermediates\\res\\merged\\debug\\menu\\dump_editor_functions.xml",
+        "source": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\src\\main\\res\\menu\\dump_editor_functions.xml"
+    }
+]

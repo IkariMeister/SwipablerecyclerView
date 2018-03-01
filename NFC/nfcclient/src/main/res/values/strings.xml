@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">NFC Client</string>
+    <string name="aiddescription">Descripcion del Servicio</string>
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrador\.android\build-cache\3065a819abd54b68353b334420e87fcedb0ab236\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="C:\Projects\Pruebas\Mifare Classic Tool\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d7919a0f7e496bad8c687262c3faad80a524e9cd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrador\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="C:\Projects\Pruebas\Mifare Classic Tool\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.1_5ebae65081f15ce810ca536284302018878779de\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrador\.android\build-cache\0346a47faadc0c2246c441ea11b15dafab7dbe17\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Projects\Pruebas\Mifare Classic Tool\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d9c1d200b367fb13b59339586392d755958b16c0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrador\.android\build-cache\9bf10a0f7990e1194681b0f284d20de9355b2fd5\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="C:\Projects\Pruebas\Mifare Classic Tool\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6611f648069d897737ebe1a02e4854c16a29ca76\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrador\.android\build-cache\75614884f0fe8ce4f707c5dacf3198ed8db7f5f2\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="C:\Projects\Pruebas\Mifare Classic Tool\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1b0776b37f26e38a843e6aa25eb90b79f2ed5266\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projects\Pruebas\Mifare Classic Tool\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="97ccfefa2f6bb05038a57335678452960c44e066">
+        <dex dex="C:\Projects\Pruebas\Mifare Classic Tool\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_de4a9e944651ca2fe2d714ad383fdca843845503\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projects\Pruebas\Mifare Classic Tool\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="C:\Projects\Pruebas\Mifare Classic Tool\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_f6983c9944e463889acd9c64dfd2dc0cf7b58b06\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrador\.android\build-cache\81b14ab5fb42078cb4c30c58461d9f67c8b9e1f1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="C:\Projects\Pruebas\Mifare Classic Tool\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_24a3b22aea2b644bb4860e7630c0b8de5cf4992c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrador\.android\build-cache\4c22087fe293df557c58dcc1e8e813096b78478b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="C:\Projects\Pruebas\Mifare Classic Tool\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ebdfa332c1994f7e53f731b1ab06f154294828a8\classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\read_tag.png",
+        "source": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\src\\main\\res\\drawable-ldpi\\read_tag.png"
+    },
+    {
+        "merged": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\write_tag.png",
+        "source": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\src\\main\\res\\drawable-ldpi\\write_tag.png"
+    },
+    {
+        "merged": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\warning.png",
+        "source": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\src\\main\\res\\drawable-ldpi\\warning.png"
+    },
+    {
+        "merged": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\help_and_info.png",
+        "source": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\src\\main\\res\\drawable-ldpi\\help_and_info.png"
+    },
+    {
+        "merged": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\edit_keys.png",
+        "source": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\src\\main\\res\\drawable-ldpi\\edit_keys.png"
+    },
+    {
+        "merged": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\arrow_up.png",
+        "source": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\src\\main\\res\\drawable-ldpi\\arrow_up.png"
+    },
+    {
+        "merged": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\copy.png",
+        "source": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\src\\main\\res\\drawable-ldpi\\copy.png"
+    },
+    {
+        "merged": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\paste.png",
+        "source": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\src\\main\\res\\drawable-ldpi\\paste.png"
+    },
+    {
+        "merged": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\tools.png",
+        "source": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\src\\main\\res\\drawable-ldpi\\tools.png"
+    },
+    {
+        "merged": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\edit_dump.png",
+        "source": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\src\\main\\res\\drawable-ldpi\\edit_dump.png"
+    },
+    {
+        "merged": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\arrow_down.png",
+        "source": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\src\\main\\res\\drawable-ldpi\\arrow_down.png"
+    }
+]

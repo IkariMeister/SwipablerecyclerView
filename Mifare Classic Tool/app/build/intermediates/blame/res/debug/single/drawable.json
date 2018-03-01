@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tools.png",
+        "source": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\src\\main\\res\\drawable\\tools.png"
+    },
+    {
+        "merged": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\map_keys_to_sector.png",
+        "source": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\src\\main\\res\\drawable\\map_keys_to_sector.png"
+    },
+    {
+        "merged": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\help_and_info.png",
+        "source": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\src\\main\\res\\drawable\\help_and_info.png"
+    },
+    {
+        "merged": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\hex_to_ascii.png",
+        "source": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\src\\main\\res\\drawable\\hex_to_ascii.png"
+    },
+    {
+        "merged": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\diff_tool.png",
+        "source": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\src\\main\\res\\drawable\\diff_tool.png"
+    },
+    {
+        "merged": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tag_info.png",
+        "source": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\src\\main\\res\\drawable\\tag_info.png"
+    },
+    {
+        "merged": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\warning.png",
+        "source": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\src\\main\\res\\drawable\\warning.png"
+    },
+    {
+        "merged": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\value_block_to_int.png",
+        "source": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\src\\main\\res\\drawable\\value_block_to_int.png"
+    },
+    {
+        "merged": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\read_tag.png",
+        "source": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\src\\main\\res\\drawable\\read_tag.png"
+    },
+    {
+        "merged": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\write_tag.png",
+        "source": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\src\\main\\res\\drawable\\write_tag.png"
+    },
+    {
+        "merged": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\edit_keys.png",
+        "source": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\src\\main\\res\\drawable\\edit_keys.png"
+    },
+    {
+        "merged": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bcc_tool.png",
+        "source": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\src\\main\\res\\drawable\\bcc_tool.png"
+    },
+    {
+        "merged": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\open.png",
+        "source": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\src\\main\\res\\drawable\\open.png"
+    },
+    {
+        "merged": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\preferences.png",
+        "source": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\src\\main\\res\\drawable\\preferences.png"
+    },
+    {
+        "merged": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\value_block_tool.png",
+        "source": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\src\\main\\res\\drawable\\value_block_tool.png"
+    },
+    {
+        "merged": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\access_conditions.png",
+        "source": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\src\\main\\res\\drawable\\access_conditions.png"
+    },
+    {
+        "merged": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\edit_dump.png",
+        "source": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\src\\main\\res\\drawable\\edit_dump.png"
+    },
+    {
+        "merged": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\access_condition_tool.png",
+        "source": "C:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\src\\main\\res\\drawable\\access_condition_tool.png"
+    }
+]

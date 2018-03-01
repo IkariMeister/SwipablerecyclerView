@@ -1,0 +1,1 @@
+include ':app', ':nfcclient', ':nfcserver', ':model'

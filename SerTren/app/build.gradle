@@ -1,0 +1,171 @@
+apply plugin: 'com.android.application'
+
+
+def releaseTime(){
+    return new Date().format("yyyyMMddHHmm", TimeZone.getTimeZone("GMT"))
+}
+
+//para control de versiones
+def AndroidSDKVersion = "25.0.2"
+def AndroidSupportVersion = '25.1.1'
+def OkHttpVersion = '3.4.2'
+def RetrofitVersion='2.1.0'
+def Expresso = '2.2.2'
+def SupportTest = '0.5'
+def ButterKnifeVersion = '8.5.1'
+def DaggerVersion = ''
+
+//para variables de build
+def BOOLEAN = "boolean"
+def TRUE = "true"
+def FALSE = "false"
+def TESTEAR_PROXY = "TEST_PROXY"
+
+
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+    defaultConfig {
+        applicationId "es.renfe.sertren"
+        minSdkVersion 17
+
+        multiDexEnabled true
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    packagingOptions {
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/NOTICE'
+    }
+
+    productFlavors {
+        desarrollo {
+            applicationId "es.renfe.sertren.desarrollo"
+            versionCode 1
+            versionName "DESA"
+        }
+        integracion {
+            applicationId "es.renfe.sertren.integracion"
+            versionCode 1
+            versionName "INT(6.9.0)"
+        }
+        pre {
+            applicationId "es.renfe.sertren.pre"
+            versionCode 88
+            versionName "6.8.1"
+        }
+        produccion {
+            applicationId "es.renfe.sertren"
+            versionCode 79
+            versionName "6.9.0"
+        }
+
+        paraTesting{
+            applicationId "es.renfe.sertren"
+            versionCode 0
+            versionName "TESTING"
+            //quitamos proxy para los test
+            buildConfigField BOOLEAN, TESTEAR_PROXY, TRUE
+
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+}
+
+dependencies {
+    compile project(':usbSerialLibrary')
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile "com.android.support:appcompat-v7:$AndroidSDKVersion"
+    compile "com.android.support:support-v13:$AndroidSDKVersion"
+    compile "com.android.support:design:$AndroidSDKVersion"
+    compile "com.android.support:cardview-v7:$AndroidSDKVersion"
+    compile 'com.android.support:multidex:1.0.1'
+
+    compile 'com.google.code.gson:gson:2.7'
+
+    //Códigos de barras/QR Codes...
+    compile 'com.google.zxing:core:3.2.0'
+    compile 'com.journeyapps:zxing-android-embedded:3.1.0@aar'
+
+    compile 'org.greenrobot:greendao:3.2.0'
+    compile 'de.greenrobot:eventbus:2.4.1'
+
+    compile 'com.prolificinteractive:material-calendarview:0.4.0'
+    compile 'com.astuetz:pagerslidingtabstrip:1.0.1'
+    compile 'org.springframework.android:spring-android-rest-template:1.0.1.RELEASE'
+    compile('org.simpleframework:simple-xml:2.7') {
+        exclude module: 'stax'
+        exclude module: 'stax-api'
+        exclude module: 'xpp3'
+    }
+
+    //librerías para el autocompletado de las direcciónes de correo en los informes especiales
+    compile 'com.splitwise:tokenautocomplete:1.3.1'
+
+    //CARGARSELO CON INTERVENIR
+    compile 'com.sothree.slidinguppanel:library:3.0.0'
+
+
+    //ZEBRA
+    compile files('libs/com.symbol.emdk.jar')
+    compile files('libs/ZQ110.jar')
+    //Impresora china FLYPOS - T10i
+    compile files('libs/androidprintsdk.jar')
+    //Impresora ITOS => DPP250
+    compile files('libs/com.datecs.api.jar')
+    //REDSYS
+    compile files('libs/android-wb-manager.jar')
+    compile files('libs/hce-uitls.jar')
+
+    //REDSYS
+    compile 'com.madgag.spongycastle:core:1.51.0.0'
+    compile 'com.madgag.spongycastle:prov:1.51.0.0'
+    compile 'com.madgag.spongycastle:pkix:1.51.0.0'
+    compile 'com.madgag.spongycastle:pg:1.51.0.0'
+    compile files('libs/paysyslibrary2.4.jar')
+
+
+    //PASAMOS A RETROFIT!
+    compile ("com.squareup.retrofit2:retrofit:$RetrofitVersion")
+    compile ("com.squareup.retrofit2:converter-gson:$RetrofitVersion")
+    compile ("com.squareup.okhttp3:okhttp-urlconnection:$OkHttpVersion")
+    compile ("com.squareup.okhttp3:logging-interceptor:$OkHttpVersion")
+
+    //NOTIFICACIONES PUSH
+    compile ('com.ibm.mobile.foundation:ibmmobilefirstplatformfoundationpush:8.0.2016070718')
+    compile ("com.google.android.gms:play-services-gcm:9.0.0")
+
+    //PARA INSTRUMENTATION TESTING ON ANDROID
+    androidTestCompile "com.squareup.retrofit2:retrofit-mock:$RetrofitVersion"
+    androidTestCompile "com.squareup.okhttp3:mockwebserver:$OkHttpVersion"
+    androidTestCompile "com.android.support.test:runner:$SupportTest"
+    androidTestCompile "com.android.support.test:rules:$SupportTest"
+    androidTestCompile "com.android.support:support-annotations:$AndroidSupportVersion"
+    androidTestCompile "com.android.support.test.espresso:espresso-core:$Expresso"
+    androidTestCompile "com.android.support.test.espresso:espresso-intents:$Expresso"
+    androidTestCompile('com.android.support.test.espresso:espresso-contrib:2.2') {
+        exclude group: 'com.android.support', module: 'appcompat'
+        exclude group: 'com.android.support', module: 'support-v4'
+        exclude module: 'recyclerview-v7'
+    }
+    androidTestCompile 'org.testng:testng:6.9.6'
+    androidTestCompile 'junit:junit:4.12'
+}

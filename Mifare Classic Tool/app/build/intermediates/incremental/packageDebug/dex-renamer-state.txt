@@ -1,0 +1,7 @@
+#Wed Apr 26 17:17:19 CEST 2017
+base.0=C\:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_de4a9e944651ca2fe2d714ad383fdca843845503
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_f6983c9944e463889acd9c64dfd2dc0cf7b58b06\\classes.dex
+base.1=C\:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_f6983c9944e463889acd9c64dfd2dc0cf7b58b06
+file.0=C\:\\Projects\\Pruebas\\Mifare Classic Tool\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_de4a9e944651ca2fe2d714ad383fdca843845503\\classes.dex

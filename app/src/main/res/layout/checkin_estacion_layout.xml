@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.Guideline
+        android:id="@+id/horizontal_guide1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="0dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/horizontal_guide2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="76dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/horizontal_guide3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="0dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/vertical_guide1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="0dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/vertical_guide2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="0dp" />
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/checkin_estacion_view_holder"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/horizontal_guide2"
+        app:layout_constraintEnd_toStartOf="@+id/vertical_guide2"
+        app:layout_constraintStart_toStartOf="@+id/vertical_guide1"
+        app:layout_constraintTop_toTopOf="@+id/horizontal_guide1"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/data_rv"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="0dp"
+        android:scrollbars="vertical"
+        app:layoutManager="LinearLayoutManager"
+        android:clipToPadding="false"
+        app:layout_constraintBottom_toTopOf="@+id/horizontal_guide3"
+        app:layout_constraintEnd_toStartOf="@+id/vertical_guide2"
+        app:layout_constraintStart_toStartOf="@+id/vertical_guide1"
+        app:layout_constraintTop_toTopOf="@+id/horizontal_guide2"
+
+        tools:listitem="@layout/checkin_estacion_view_holder"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#228844"
+        app:layout_constraintBottom_toTopOf="parent"/>
+
+</android.support.constraint.ConstraintLayout>

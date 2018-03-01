@@ -1,0 +1,29 @@
+group 'kotlin-examples'
+version '1.0-SNAPSHOT'
+
+buildscript {
+    ext.kotlin_version = '1.1.2'
+    ext.spring_version = '4.0.0.RELEASE'
+
+    repositories {
+        mavenCentral()
+        url("http://repo1.maven.org/maven2")
+    }
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+
+apply plugin: 'kotlin'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jre8:$kotlin_version"
+    compile "org.springframework:spring-context:$spring_version"
+    compile "org.springframework.data:spring-data-jpa:$spring_version"
+    compile "org.springframework:spring-orm:$spring_version"
+
+}

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="connection.url">jdbc:oracle:thin:@//lvovid01.sir.renfe.es:1531/OVID</property>
+        <property name="connection.driver_class">oracle.jdbc.OracleDriver</property>
+        <mapping class="com.test.springjpa.entities.db.NucleoDB"/>
+        <mapping class="com.test.springjpa.entities.db.ViajeroDB"/>
+        <mapping class="com.test.springjpa.entities.db.SolicitudDB"/>
+        <mapping class="com.test.springjpa.entities.db.TipoDiscapacidadDB"/>
+        <mapping class="com.test.springjpa.entities.db.AsistenciaDB"/>
+        <mapping class="com.test.springjpa.entities.db.TrenDB"/>
+        <mapping class="com.test.springjpa.entities.db.IncidenciaDB"/>
+        <mapping class="com.test.springjpa.entities.db.EstadoSolDB"/>
+        <mapping class="com.test.springjpa.entities.db.EstadoAsisDB"/>
+        <!-- <property name="connection.username"/> -->
+        <!-- <property name="connection.password"/> -->
+
+        <!-- DB schema will be updated if needed -->
+        <!-- <property name="hbm2ddl.auto">update</property> -->
+    </session-factory>
+</hibernate-configuration>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrador\.android\build-cache\0471499fccaffb86b31ce5b6e2f37321893a2039\output\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cfb91ea7c6890336890ccb42767041af6b863e32">
+        <dex dex="C:\Projects\Pruebas\android-CardReader-master\Application\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_ab66215121a7f3581aa65dfc1977e4feb1fc01e2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrador\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="C:\Projects\Pruebas\android-CardReader-master\Application\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.1_7fe2462f3cdf3e6fcb68fb09d3d0ec66806a3e33\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrador\.android\build-cache\af433f59bbb93c19a3d7644e124db5279ac06da7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1108575c7dc7b7f5b378b3290ac90de81a9b8830">
+        <dex dex="C:\Projects\Pruebas\android-CardReader-master\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c9ef0c903b1f479a2bebe7f64a47071d44ad5cb7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrador\.android\build-cache\25d342b7832f877366520409dfeedb020ba83b02\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="C:\Projects\Pruebas\android-CardReader-master\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9b511f4505cfd6eba1409070155c8a434a224ccf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrador\.android\build-cache\e59557d004cc1b738b2b84b40f830e5d5e808487\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="C:\Projects\Pruebas\android-CardReader-master\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ac7013f1dbe6eba6910f7cdc1b137e33e30b7713\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrador\.android\build-cache\5d4352641329789a63550c82e8297214054b5f3c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="C:\Projects\Pruebas\android-CardReader-master\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4fec8b36ab48655c66d8142435378ca180096ee0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrador\.android\build-cache\5f35807d13cd2e1cfc616136302f79214ed7eb7a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="C:\Projects\Pruebas\android-CardReader-master\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5fe6123975d143e87b6d48d4be9946cba793c861\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrador\.android\build-cache\08d4331ee56223feb0f7782a9e04915aee9396d8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="C:\Projects\Pruebas\android-CardReader-master\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d72e5e06826d50a0f9fcc25ef5aeffb997953378\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrador\.android\build-cache\6db5ab511a81c8122bd225c27cbe1745603240d9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="C:\Projects\Pruebas\android-CardReader-master\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_921b41a5891a06d1c7bc377ffe2b6405b670be8c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrador\.android\build-cache\2ee101cca8311a9c3f71153425d4fe910baf156f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="C:\Projects\Pruebas\android-CardReader-master\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8be694afeea0352abb2e4fcd82b875bb35694958\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrador\.android\build-cache\4b8c67a4ff4121e86a099a0a80e0e45e42907b74\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="C:\Projects\Pruebas\android-CardReader-master\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_08042074bd6dfb7a5246802e4222fea6ec32254c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrador\.android\build-cache\08d4331ee56223feb0f7782a9e04915aee9396d8\output\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="C:\Projects\Pruebas\android-CardReader-master\Application\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_e71b02f1e995594ea1ff1241092e42b5041f3efe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrador\.android\build-cache\e59557d004cc1b738b2b84b40f830e5d5e808487\output\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="C:\Projects\Pruebas\android-CardReader-master\Application\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_f5d0ed191eb1b7fca9c96a448106e8cb5cfedd59\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrador\.android\build-cache\0471499fccaffb86b31ce5b6e2f37321893a2039\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9abf11d546d9e0ee82da86df608ced7a961b76ac">
+        <dex dex="C:\Projects\Pruebas\android-CardReader-master\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e5f299ca70c2751f5dd4f3c71796a4473aea0d29\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projects\Pruebas\android-CardReader-master\Application\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="C:\Projects\Pruebas\android-CardReader-master\Application\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_42fbb1463ffd58fc9615b659af3b1acc0a8a102d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrador\.android\build-cache\5d4352641329789a63550c82e8297214054b5f3c\output\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="C:\Projects\Pruebas\android-CardReader-master\Application\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_a4e46f01389bc3bc954f21c294ab629e8165a798\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrador\.android\build-cache\4b8c67a4ff4121e86a099a0a80e0e45e42907b74\output\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="C:\Projects\Pruebas\android-CardReader-master\Application\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_d5a175aa277d41825b5a634fe05cc76535ffa91b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrador\.android\build-cache\f8b5af94355d55f72c008fd3e3f9887aea08a678\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Projects\Pruebas\android-CardReader-master\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a9f4aea9cef2b838e29e408410e2097265decb5b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrador\.android\build-cache\6db5ab511a81c8122bd225c27cbe1745603240d9\output\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="C:\Projects\Pruebas\android-CardReader-master\Application\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_83875926b30cfb61066ed85e61db4fcdd35a860c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projects\Pruebas\android-CardReader-master\Application\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f7df3fca167950d4f3d48ba05b00f40cfccffd94">
+        <dex dex="C:\Projects\Pruebas\android-CardReader-master\Application\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_ff5d157da95bc8aad2f983a95188bebfeb2fc3a0\classes.dex" />
+    </item>
+
+</items>
