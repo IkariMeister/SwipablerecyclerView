@@ -17,17 +17,8 @@
         app:layout_constraintBottom_toTopOf="@+id/horizontal_guide"
         app:layout_constraintEnd_toStartOf="@+id/start_tren"
         app:layout_constraintStart_toStartOf="@+id/start"
-        app:layout_constraintTop_toTopOf="@id/top"
-        />
+        app:layout_constraintTop_toTopOf="@id/top" />
 
-        <!--<android.support.constraint.ConstraintLayout-->
-            <!--android:layout_width="0dp"-->
-            <!--android:layout_height="0dp"-->
-            <!--app:layout_constraintBottom_toBottomOf="@id/horizontal_guide"-->
-            <!--app:layout_constraintEnd_toStartOf="@+id/start_destino"-->
-            <!--app:layout_constraintStart_toEndOf="@+id/start_tren"-->
-            <!--app:layout_constraintTop_toTopOf="@id/top"-->
-            <!--android:background="#556677">-->
 
         <android.support.constraint.Guideline
             android:id="@+id/middle"
@@ -35,66 +26,39 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             app:layout_constraintGuide_percent="0.5" />
-        <!--<android.support.constraint.Guideline-->
-            <!--android:id="@+id/start_trains"-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:orientation="vertical"-->
-            <!--app:layout_constraintGuide_percent="0" />-->
 
-        <!--<android.support.constraint.Guideline-->
-            <!--android:id="@+id/end_trains"-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:orientation="vertical"-->
-            <!--app:layout_constraintGuide_percent="1" />-->
+    <TextView
+        android:id="@+id/circulacion_tren_tv"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:text="Tren Circ."
+        android:textAlignment="center"
+        android:textSize="14sp"
 
-        <!--<android.support.constraint.Guideline-->
-            <!--android:id="@+id/top_trains"-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:orientation="horizontal"-->
-            <!--app:layout_constraintGuide_percent="0" />-->
-        <!--<android.support.constraint.Guideline-->
-            <!--android:id="@+id/bottom_trains"-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:orientation="horizontal"-->
-            <!--app:layout_constraintGuide_percent="1" />-->
+        app:layout_constraintBottom_toTopOf="@id/middle"
+        app:layout_constraintEnd_toStartOf="@+id/start_destino"
+        app:layout_constraintStart_toEndOf="@+id/start_tren"
+        app:layout_constraintTop_toTopOf="@id/top"
+        />
 
-        <TextView
-            android:id="@+id/circulacion_tren_tv"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_marginTop="8dp"
-            android:gravity="center_vertical"
-            android:text="Tren Circ."
-            android:textAlignment="center"
-            android:textSize="14sp"
+    <TextView
+        android:id="@+id/venta_tren_tv"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:text="(Venta)"
+        android:textAlignment="center"
 
-            app:layout_constraintBottom_toTopOf="@id/middle"
-            app:layout_constraintEnd_toStartOf="@+id/start_destino"
-            app:layout_constraintStart_toEndOf="@+id/start_tren"
-            app:layout_constraintTop_toTopOf="@id/top"
-            />
+        android:textSize="14sp"
 
-        <TextView
-            android:id="@+id/venta_tren_tv"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_marginBottom="8dp"
-            android:layout_marginTop="8dp"
-            android:gravity="center_vertical"
-            android:text="(Venta)"
-            android:textAlignment="center"
-
-            android:textSize="14sp"
-
-            app:layout_constraintBottom_toBottomOf="@id/horizontal_guide"
-            app:layout_constraintEnd_toStartOf="@+id/start_destino"
-            app:layout_constraintStart_toEndOf="@+id/start_tren"
-            app:layout_constraintTop_toBottomOf="@+id/middle" />
-
+        app:layout_constraintBottom_toBottomOf="@id/horizontal_guide"
+        app:layout_constraintEnd_toStartOf="@+id/start_destino"
+        app:layout_constraintStart_toEndOf="@+id/start_tren"
+        app:layout_constraintTop_toBottomOf="@+id/middle" />
 
 
     <TextView
@@ -113,8 +77,7 @@
         app:layout_constraintEnd_toStartOf="@+id/estado_tv"
         app:layout_constraintStart_toStartOf="@+id/start_destino"
         app:layout_constraintTop_toTopOf="@id/top"
-        app:layout_constraintVertical_bias="1.0"
-        />
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@+id/estado_tv"
@@ -127,7 +90,7 @@
         android:textSize="15sp"
         app:layout_constraintBottom_toTopOf="@+id/horizontal_guide"
         app:layout_constraintEnd_toEndOf="@+id/end"
-        app:layout_constraintTop_toTopOf="@id/top" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <android.support.constraint.Guideline
         android:id="@+id/horizontal_guide"
@@ -141,40 +104,42 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.35" />
+        app:layout_constraintGuide_percent="0.1" />
 
     <android.support.constraint.Guideline
         android:id="@+id/start_tren"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.15" />
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1px"
-        android:background="#228844"
-        app:layout_constraintBottom_toTopOf="parent" />
+        app:layout_constraintGuide_percent="-0.15" />
 
     <android.support.constraint.Guideline
         android:id="@+id/start"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0" />
+        app:layout_constraintGuide_percent="-0.3" />
 
     <android.support.constraint.Guideline
         android:id="@+id/end"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="1" />
+        app:layout_constraintGuide_percent="0.7" />
+
     <android.support.constraint.Guideline
         android:id="@+id/top"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         app:layout_constraintGuide_percent="0" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="1px"
+        android:background="#228844"
+        app:layout_constraintBottom_toTopOf="@id/horizontal_guide"
+        />
     <FrameLayout
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -182,8 +147,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/top"
         app:layout_constraintBottom_toTopOf="@+id/horizontal_guide"
-        android:id="@+id/container">
+        android:id="@+id/container"
+        />
 
-    </FrameLayout>
 
 </android.support.constraint.ConstraintLayout>
