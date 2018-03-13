@@ -11,7 +11,7 @@ import kotlinx.android.synthetic.main.checkin_estacion_view_holder_alt.view.*
 /**
  * Created by jcgarcia on 01/03/2018.
  */
-class CheckinEstacionViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+class CheckinEstacionViewHolder(itemView: View, val buttons: View) : RecyclerView.ViewHolder(itemView) {
 
 
     fun render(element: Pasos) {
@@ -20,12 +20,20 @@ class CheckinEstacionViewHolder(itemView: View) : RecyclerView.ViewHolder(itemVi
         var set = false
         val constraint1 = ConstraintSet()
         constraint1.clone(itemView as ConstraintLayout)
+        val constraintB1 = ConstraintSet()
+        constraintB1.clone(itemView.context,R.layout.checkin_estacion_vh_action_buttons)
         val constraint2 = ConstraintSet()
         constraint2.clone(itemView.context, R.layout.checkin_estacion_view_holder_alt)
+        val constraintB2 = ConstraintSet()
+        constraintB2.clone(itemView.context, R.layout.checkin_estacion_vh_action_buttons_alt)
         itemView.setOnClickListener {
             TransitionManager.beginDelayedTransition(itemView)
+            TransitionManager.beginDelayedTransition(itemView.container)
             val constraint = if (set) constraint1 else constraint2
+            val constraintB = if (set) constraintB1 else constraintB2
+
             constraint.applyTo(itemView)
+            constraintB.applyTo(buttons as ConstraintLayout)
             set = !set
         }
     }

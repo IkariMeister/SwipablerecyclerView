@@ -18,9 +18,9 @@ class CheckinEstacionAdapter : RecyclerView.Adapter<CheckinEstacionViewHolder>()
         val inflater = LayoutInflater.from(parent.context)
         val v = inflater
                 .inflate(R.layout.checkin_estacion_view_holder, parent, false)
-        inflater.inflate(R.layout.checkin_estacion_vh_action_buttons, v.container, true)
+        val buttons = inflater.inflate(R.layout.checkin_estacion_vh_action_buttons, v.container, true)
 
-        return CheckinEstacionViewHolder(v)
+        return CheckinEstacionViewHolder(v,buttons)
     }
 
     override fun getItemCount() = data.size

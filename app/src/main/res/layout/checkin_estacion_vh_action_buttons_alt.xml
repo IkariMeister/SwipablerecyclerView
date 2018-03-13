@@ -48,7 +48,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0" />
+        app:layout_constraintGuide_percent="100" />
     <android.support.constraint.Guideline
         android:id="@+id/top"
         android:layout_width="wrap_content"
